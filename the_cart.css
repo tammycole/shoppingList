@@ -1,28 +1,38 @@
+header {
+  display    : flex;
+  font-size  : 2em;
+  color      : #2C594F;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
 shopping-cart-item {
-  display        : flex;
-  flex-flow      : column;
-  align-items    : center;
-  justify-content: center;
-  max-width      : 150px;
-  font-size      : 1.2em;
-  border         : 1px solid black;
-  margin         : 5px;
-  padding        : 5px;
-  user-select    : none;
-  cursor         : default;
+  display         : flex;
+  flex-flow       : column;
+  align-items     : center;
+  justify-content : center;
+  max-width       : 150px;
+  font-size       : 1.2em;
+  border          : 1px solid black;
+  margin          : 5px;
+  padding         : 5px;
+  user-select     : none;
+  cursor          : default;
+  background-color: #ABED88;
 }
 
 shopping-cart-item button {
-  font-size    : 1em;
-  border-radius: 50%;
-  border       : 2px solid #333;
-  margin       : 3px; 
-  cursor       : pointer;
-  outline      : none;
+  font-size       : 1em;
+  color           : white;
+  border-radius   : 50%;
+  border          : 2px solid white;
+  margin          : 3px; 
+  background-color: #E54661;
+  cursor          : pointer;
+  outline         : none;
 }
 
 shopping-cart-item button:hover {
-  background: #333;
+  background: #FFA644;
   color     : white;
 }
 
@@ -34,22 +44,32 @@ shopping-cart-item button:active {
 shopping-cart-item-text {
   font-size: 1.3em;
 }
+purchase {
+  display     : flex;
+  font-size   : 2em;
+  font-style  : italic;
+  color       : #E54661;
+  font-weight : bold;
+  padding-top : 20px;
+  padding-left: 7px;
+  
+}
 
 final-purchases {
-  display  : flex;
-  flex-flow: column;
+  display     : flex;
+  flex-flow   : column;
+  font-size   : 1em;
+  color       : #FFA644;
+  font-weight : bold;
+  padding-left: 10px;
 }
 
 total-cost {
-  display    : flex;
-  font-size  : 1.5em;
-  font-weight: bold;
-  padding-top: 10px;
+  display     : flex;
+  color       : #002D40;
+  font-size   : 1.5em;
+  font-weight : bold;
+  padding-top : 10px;
+  padding-left: 10px;
 }
 
-purchase {
-  display    : flex;
-  font-size  : 2em;
-  font-weight: bold;
-  padding-top: 30px;
-}
